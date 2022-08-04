@@ -19,7 +19,7 @@ Models for prediction (PoseNet with Fine Tuning) and classification (MobileNet w
 Graphics accuracy looks very good even almost 100% accuracy. However, this happens because of the large number of biases caused by the minimal variation in the dataset used (imbalanced dataset). This also applies to the loss model graph showing a very low predictive error value because the training and testing data have almost identical variations. In addition, currently the dataset used is still being developed (currently 60 images per traditional dance).
 
 ### Deploy (Using Teachable Machine Library, Tensorflow Js and P5 Js with Float Model)
-[https://oh-dance.appspot.com/learn-dances](https://oh-dance.appspot.com/learn-dances)  
+[https://oh-dance.herokuapp.com/learn-dances](https://oh-dance.herokuapp.com/learn-dances)  
 ![Deploy CV](/image/deploy-cv.png)
 
 ## Search and Recommendation Systems (NLP)
@@ -43,6 +43,6 @@ The model was built using the Long Short-Term Memory (LSTM) algorithm and improv
 The accuracy of the training dataset is 81% while the testing dataset is 84%.
 ### Deploy (Using Tensorflow Js with Quant Model)
 Click search menu:
-[https://oh-dance.appspot.com/](https://oh-dance.appspot.com/)  
+[https://oh-dance.herokuapp.com/](https://oh-dance.herokuapp.com/)  
 ![Search NLP](/image/v1-nlp.jpg)  
 ![Search NLP](/image/v2-nlp.jpg)  
